@@ -8,7 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "importHelpers": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
