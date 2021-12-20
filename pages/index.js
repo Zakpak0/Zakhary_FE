@@ -29,7 +29,7 @@ export default function Home() {
         clearInterval(interval)
       }
     }, 500)
-  }, [])
+  })
 
   const H1 = styled('h1', {})
   const P = styled('p', {})
@@ -49,11 +49,11 @@ export default function Home() {
   // RGB(183, 213, 72)
   // rgb(9, 52, 46)
   // rgb(46, 52, 9)
-  function nameToRgba(name) {
-    const image = () => <Image src={name} height={"10px"} width={"10px"} />
-    return console.log(image());
-  }
-  nameToRgba(mint.mint12)
+  // function nameToRgba(name) {
+  //   const image = () => <Image alt="" src={name} height={"10px"} width={"10px"} />
+  //   return console.log(image());
+  // }
+  // nameToRgba(mint.mint12)
   const NoA = styled("div", {
     background: themeMode ? `${theme.colors.container}` : `${theme.colors.containerDark}`,
     margin: "1rem",
@@ -129,7 +129,7 @@ export default function Home() {
                     <H1>
                       Welcome to{" "}
                       <a href="https://www.linkedin.com/in/zakhary-oliver-81141b211/">
-                        Zakhary Oliver's Portfolio
+                        Zakhary Oliver&apos;s Portfolio
                       </a>
                     </H1>
 
@@ -183,7 +183,7 @@ export default function Home() {
                     </Div>
                   </Main>
                 </div>
-      // </>
+              </>
             }
           />
         </>
