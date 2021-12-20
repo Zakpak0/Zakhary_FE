@@ -20,6 +20,7 @@ export const {
   theme,
   createTheme,
   config,
+  darkTheme
 } = createStitches({
   theme: {
     colors: {
