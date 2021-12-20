@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { theme, styled, darkTheme } from "../stitches.config";
+import { theme, styled } from "../stitches.config";
 import { blackA, lime, limeA, mint } from "@radix-ui/colors";
 import styles from "../styles/Home.module.css";
 import Bar from "../components/Bar"
